@@ -1,0 +1,44 @@
+body.scrollW0::-webkit-scrollbar,
+body.scrollW0 *::-webkit-scrollbar {
+    width: 0px;
+}
+
+body.scrollW1::-webkit-scrollbar,
+body.scrollW1 *::-webkit-scrollbar {
+    width: 2px;
+}
+
+body.scrollW2::-webkit-scrollbar,
+body.scrollW2 *::-webkit-scrollbar {
+    width: 4px;
+}
+
+body.scrollW3::-webkit-scrollbar,
+body.scrollW3 *::-webkit-scrollbar {
+    width: 6px;
+}
+
+body.scrollW4::-webkit-scrollbar,
+body.scrollW4 *::-webkit-scrollbar {
+    width: 8px;
+}
+
+body.scrollW5::-webkit-scrollbar,
+body.scrollW5 *::-webkit-scrollbar {
+    width: 10px;
+}
+
+body.scrollW6::-webkit-scrollbar,
+body.scrollW6 *::-webkit-scrollbar {
+    width: 12px;
+}
+
+body.scrollW7::-webkit-scrollbar,
+body.scrollW7 *::-webkit-scrollbar {
+    width: 14px;
+}
+
+body.scrollW8::-webkit-scrollbar,
+body.scrollW8 *::-webkit-scrollbar {
+    width: 16px;
+}

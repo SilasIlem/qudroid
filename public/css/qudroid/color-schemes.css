@@ -1,0 +1,480 @@
+/*Default Scheme -- White and Black*/
+body.whiteblack {
+    --natural_color_light: white;
+    --natural_color_dark: black;
+    --natural_color_dark2: grey;
+    --unusual_color_light: blue;
+    --usual_color_dark: green;
+    /*Basics*/
+    --color_light_pry: white;
+    --color_light_sec: rgb(240, 240, 240);
+
+    --color_light2_pry: rgb(255, 255, 255);
+    --color_light2_sec: rgb(180, 180, 180);
+
+    --color_dark_pry: rgb(0, 0, 0);
+    --color_dark_sec: grey;
+
+    --color_dark2_pry: rgb(150, 150, 150);
+    --color_dark2_sec: rgb(120, 120, 120);
+
+    --glassy_background_light_pry_1: rgba(255, 255, 255, 0.3);
+    --glassy_background_light_pry_2: rgba(255, 255, 255, 0.6);
+    --glassy_background_light_pry_3: rgba(255, 255, 255, 0.8);
+
+    --glassy_background_dark_pry_1: rgba(0, 0, 0, 0.3);
+    --glassy_background_dark_pry_2: rgba(0, 0, 0, 0.6);
+    --glassy_background_dark_pry_3: rgba(0, 0, 0, 0.8);
+
+    /*shadow light*/
+    --shadow_light_pry: white;
+    --shadow_light_sec: rgb(240, 240, 240);
+
+    --shadow_light2_pry: rgb(255, 255, 255);
+    --shadow_light2_sec: rgb(180, 180, 180);
+
+    /*shadow dark*/
+    --shadow_dark_pry: rgb(0, 0, 0);
+    --shadow_dark_sec: grey;
+
+    --shadow_dark2_pry: rgb(150, 150, 150);
+    --shadow_dark2_sec: rgb(120, 120, 120);
+}
+
+/*Default Scheme Counter -- White and Black*/
+body.inverttoblackwhite {
+    /*Basics*/
+    --color_light_pry: black;
+    --color_light_sec: rgb(50, 50, 50);
+    --color_dark_pry: white;
+    --color_dark_sec: rgb(240, 240, 240);
+    --glassy_background_light_pry_1: rgba(0, 0, 0, 0.4);
+    --glassy_background_light_pry_2: rgba(0, 0, 0, 0.6);
+    --glassy_background_light_pry_3: rgba(0, 0, 0, 0.8);
+    --glassy_background_dark_pry_1: rgba(255, 255, 255, 0.4);
+    --glassy_background_dark_pry_2: rgba(255, 255, 255, 0.6);
+    --glassy_background_dark_pry_3: rgba(255, 255, 255, 0.8);
+    --glassy_blur_1: blur(8px);
+    --glassy_blur_2: blur(16px);
+    --glassy_blur_3: blur(24px);
+    --shadow_light_pry: black;
+    --shadow_dark_pry: white;
+}
+
+body.mixin {
+    --natural_color_light: white;
+    --natural_color_dark: black;
+    --natural_color_dark2: rgb(70, 70, 70);
+    --unusual_color_light: rgb(78, 147, 238);
+    --usual_color_dark: rgb(27, 55, 177);
+    /*Basics*/
+    --color_light_pry: white;
+    --color_light_sec: rgb(240, 240, 240);
+
+    --color_light2_pry: rgb(75, 182, 201);
+    --color_light2_sec: rgb(29, 113, 168);
+
+    --color_dark_pry: rgb(90, 20, 20);
+    --color_dark_sec: rgb(107, 32, 32);
+
+    --color_dark2_pry: rgb(9, 41, 100);
+    --color_dark2_sec: rgb(27, 32, 61);
+
+    --glassy_background_light_pry_1: rgba(75, 182, 201, 0.3);
+    --glassy_background_light_pry_2: rgba(75, 182, 201, 0.6);
+    --glassy_background_light_pry_3: rgba(75, 182, 201, 0.8);
+
+    --glassy_background_dark_pry_1: rgb(9, 41, 100, 0.3);
+    --glassy_background_dark_pry_2: rgb(9, 41, 100, 0.6);
+    --glassy_background_dark_pry_3: rgb(9, 41, 100, 0.8);
+
+    /*shadow light*/
+    --shadow_light_pry: white;
+    --shadow_light_sec: rgb(240, 240, 240);
+
+    --shadow_light2_pry: rgb(75, 182, 201);
+    --shadow_light2_sec: rgb(29, 113, 168);
+
+    --shadow_dark_pry: rgb(150, 0, 0);
+    --shadow_dark_sec: red;
+
+    --shadow_dark2_pry: rgb(9, 41, 100);
+    --shadow_dark2_sec: rgb(27, 32, 61);
+}
+
+body.city-feel {
+    --natural_color_light: white;
+    --natural_color_dark: black;
+    --natural_color_dark2: rgb(70, 70, 70);
+    --unusual_color_light: rgb(78, 147, 238);
+    --usual_color_dark: rgb(27, 55, 177);
+    /*Basics*/
+    --color_light_pry: white;
+    --color_light_sec: rgb(240, 240, 240);
+
+    --color_light2_pry: rgb(75, 182, 201);
+    --color_light2_sec: rgb(29, 113, 168);
+
+    --color_dark_pry: rgb(150, 0, 0);
+    --color_dark_sec: red;
+
+    --color_dark2_pry: rgb(9, 41, 100);
+    --color_dark2_sec: rgb(27, 32, 61);
+
+    --glassy_background_light_pry_1: rgba(75, 182, 201, 0.3);
+    --glassy_background_light_pry_2: rgba(75, 182, 201, 0.6);
+    --glassy_background_light_pry_3: rgba(75, 182, 201, 0.8);
+
+    --glassy_background_dark_pry_1: rgb(9, 41, 100, 0.3);
+    --glassy_background_dark_pry_2: rgb(9, 41, 100, 0.6);
+    --glassy_background_dark_pry_3: rgb(9, 41, 100, 0.8);
+
+    /*shadow light*/
+    --shadow_light_pry: white;
+    --shadow_light_sec: rgb(240, 240, 240);
+
+    --shadow_light2_pry: rgb(75, 182, 201);
+    --shadow_light2_sec: rgb(29, 113, 168);
+
+    --shadow_dark_pry: rgb(150, 0, 0);
+    --shadow_dark_sec: red;
+
+    --shadow_dark2_pry: rgb(9, 41, 100);
+    --shadow_dark2_sec: rgb(27, 32, 61);
+}
+
+body.christmas {
+    --natural_color_light: white;
+    --natural_color_dark: black;
+    --natural_color_dark2: rgb(70, 70, 70);
+    --unusual_color_light: blue;
+    --usual_color_dark: rgb(128, 0, 100);
+    /*Basics*/
+    --color_light_pry: white;
+    --color_light_sec: rgb(240, 240, 240);
+
+    --color_light2_pry: rgb(170, 170, 0);
+    --color_light2_sec: rgb(255, 215, 0);
+
+    --color_dark_pry: rgb(150, 0, 0);
+    --color_dark_sec: red;
+
+    --color_dark2_pry: rgb(9, 100, 11);
+    --color_dark2_sec: rgb(50, 255, 50);
+
+    --glassy_background_light_pry_1: rgba(170, 170, 0, 0.3);
+    --glassy_background_light_pry_2: rgba(170, 170, 0, 0.6);
+    --glassy_background_light_pry_3: rgba(170, 170, 0, 0.8);
+
+    --glassy_background_dark_pry_1: rgb(9, 100, 11, 0.3);
+    --glassy_background_dark_pry_2: rgb(9, 100, 11, 0.6);
+    --glassy_background_dark_pry_3: rgb(9, 100, 11, 0.8);
+
+    /*shadow light*/
+    --shadow_light_pry: rgb(255, 255, 255);
+    --shadow_light_sec: rgb(255, 255, 255);
+
+    --shadow_light2_pry: rgb(170, 170, 0);
+    --shadow_light2_sec: rgb(255, 215, 0);
+
+    /*shadow dark*/
+    --shadow_dark_pry: rgb(150, 0, 0);
+    --shadow_dark_sec: red;
+
+    --shadow_dark2_pry: rgb(9, 100, 11);
+    --shadow_dark2_sec: rgb(50, 255, 50);
+}
+
+body.dracula {
+    --natural_color_light: white;
+    --natural_color_dark: black;
+    --natural_color_dark2: rgb(70, 70, 70);
+    --unusual_color_light: blue;
+    --usual_color_dark: #ff79c6;
+    /*Basics*/
+    --color_light_pry: #f8f8f2;
+    --color_light_sec: rgb(240, 240, 240);
+
+    --color_light2_pry: #bd93f9;
+    --color_light2_sec: #f1fa8c;
+
+    --color_dark_pry: #28ab65;
+    --color_dark_sec: #bd93f9;
+
+    --color_dark2_pry: #282a36;
+    --color_dark2_sec: #6272a4;
+
+    --glassy_background_light_pry_1: rgb(185, 145, 241, 0.3);
+    --glassy_background_light_pry_2: rgb(185, 145, 241, 0.6);
+    --glassy_background_light_pry_3: rgb(185, 145, 241, 0.8);
+
+    --glassy_background_dark_pry_1: rgb(40, 42, 54, 0.3);
+    --glassy_background_dark_pry_2: rgb(40, 42, 54, 0.6);
+    --glassy_background_dark_pry_3: rgb(40, 42, 54, 0.8);
+
+    /*shadow light*/
+    --shadow_light_pry: #f8f8f2;
+    --shadow_light_sec: rgb(240, 240, 240);
+
+    --shadow_light2_pry: rgb(185, 145, 241);
+    --shadow_light2_sec: #f1fa8c;
+
+    --shadow_dark_pry: #28ab65;
+    --shadow_dark_sec: #bd93f9;
+
+    --shadow_dark2_pry: rgb(40, 42, 54);
+    --shadow_dark2_sec: #6272a4;
+}
+
+body.frozen {
+    --natural_color_light: white;
+    --natural_color_dark: rgb(0, 15, 102);
+    --natural_color_dark2: rgb(6, 16, 58);
+    --unusual_color_light: blue;
+    --usual_color_dark: #090058;
+    /*Basics*/
+    --color_light_pry: #f8f8f2;
+    --color_light_sec: rgb(240, 240, 240);
+
+    --color_light2_pry: rgb(131, 199, 255);
+    --color_light2_sec: #5eb6ff;
+
+    --color_dark_pry: #0a4cc7;
+    --color_dark_sec: #1e269b;
+
+    --color_dark2_pry: #1d2658;
+    --color_dark2_sec: #1b2850;
+
+    --glassy_background_light_pry_1: rgb(131, 199, 255, 0.3);
+    --glassy_background_light_pry_2: rgb(131, 199, 255, 0.6);
+    --glassy_background_light_pry_3: rgb(131, 199, 255, 0.8);
+
+    --glassy_background_dark_pry_1: rgba(13, 25, 94, 0.3);
+    --glassy_background_dark_pry_2: rgb(13, 25, 94, 0.6);
+    --glassy_background_dark_pry_3: rgb(13, 25, 94, 0.8);
+
+    /*shadow light*/
+    --shadow_light_pry: #f8f8f2;
+    --shadow_light_sec: rgb(240, 240, 240);
+
+    --shadow_light2_pry: #83c7ff;
+    --shadow_light2_sec: #5eb6ff;
+
+    --shadow_dark_pry: #0a4cc7;
+    --shadow_dark_sec: #1e269b;
+
+    --shadow_dark2_pry: #1d2658;
+    --shadow_dark2_sec: #1b2850;
+}
+
+/*Light Scheme*/
+body.lightscheme {
+    --body_back: white;
+}
+
+/*Dark Scheme*/
+body.darkscheme {
+    --body_back: black;
+    --color: white;
+}
+
+body.themed {
+    /*Linear Gradients @Same-Across-All-Schemes*/
+    /*Primaries*/
+    --linear_gradient_light_pry_top: linear-gradient(
+        to top,
+        var(--color_light_pry),
+        var(--color_dark_pry)
+    );
+
+    --linear_gradient_dark_pry_top: linear-gradient(
+        to top,
+        var(--color_dark_pry),
+        var(--color_light_pry)
+    );
+
+    --linear_gradient_light_pry_top_right: linear-gradient(
+        to top right,
+        var(--color_light_pry),
+        var(--color_dark_pry)
+    );
+
+    --linear_gradient_dark_pry_top_right: linear-gradient(
+        to top right,
+        var(--color_dark_pry),
+        var(--color_light_pry)
+    );
+
+    --linear_gradient_light_pry_top_left: linear-gradient(
+        to top left,
+        var(--color_light_pry),
+        var(--color_dark_pry)
+    );
+
+    --linear_gradient_dark_pry_top_left: linear-gradient(
+        to top left,
+        var(--color_dark_pry),
+        var(--color_light_pry)
+    );
+
+    --linear_gradient_light_pry_left: linear-gradient(
+        to left,
+        var(--color_light_pry),
+        var(--color_dark_pry)
+    );
+
+    --linear_gradient_dark_pry_left: linear-gradient(
+        to left,
+        var(--color_dark_pry),
+        var(--color_light_pry)
+    );
+
+    --linear_gradient_light_pry_right: linear-gradient(
+        to right,
+        var(--color_light_pry),
+        var(--color_dark_pry)
+    );
+
+    --linear_gradient_dark_pry_right: linear-gradient(
+        to right,
+        var(--color_dark_pry),
+        var(--color_light_pry)
+    );
+
+    --linear_gradient_light_pry_bottom: linear-gradient(
+        to bottom,
+        var(--color_light_pry),
+        var(--color_dark_pry)
+    );
+
+    --linear_gradient_dark_pry_bottom: linear-gradient(
+        to bottom,
+        var(--color_dark_pry),
+        var(--color_light_pry)
+    );
+
+    --linear_gradient_light_pry_bottom_right: linear-gradient(
+        to bottom right,
+        var(--color_light_pry),
+        var(--color_dark_pry)
+    );
+
+    --linear_gradient_dark_pry_bottom_right: linear-gradient(
+        to bottom right,
+        var(--color_dark_pry),
+        var(--color_light_pry)
+    );
+
+    --linear_gradient_light_pry_bottom_left: linear-gradient(
+        to bottom left,
+        var(--color_light_pry),
+        var(--color_dark_pry)
+    );
+
+    --linear_gradient_dark_pry_bottom_left: linear-gradient(
+        to bottom left,
+        var(--color_dark_pry),
+        var(--color_light_pry)
+    );
+
+    /*secondaries*/
+    --linear_gradient_light_sec_top: linear-gradient(
+        to top,
+        var(--color_light_sec),
+        var(--color_dark_sec)
+    );
+
+    --linear_gradient_dark_sec_top: linear-gradient(
+        to top,
+        var(--color_dark_sec),
+        var(--color_light_sec)
+    );
+
+    --linear_gradient_light_sec_top_right: linear-gradient(
+        to top right,
+        var(--color_light_sec),
+        var(--color_dark_sec)
+    );
+
+    --linear_gradient_dark_sec_top_right: linear-gradient(
+        to top right,
+        var(--color_dark_sec),
+        var(--color_light_sec)
+    );
+
+    --linear_gradient_light_sec_top_left: linear-gradient(
+        to top left,
+        var(--color_light_sec),
+        var(--color_dark_sec)
+    );
+
+    --linear_gradient_dark_sec_top_left: linear-gradient(
+        to top left,
+        var(--color_dark_sec),
+        var(--color_light_sec)
+    );
+
+    --linear_gradient_light_sec_left: linear-gradient(
+        to left,
+        var(--color_light_sec),
+        var(--color_dark_sec)
+    );
+
+    --linear_gradient_dark_sec_left: linear-gradient(
+        to left,
+        var(--color_dark_sec),
+        var(--color_light_sec)
+    );
+
+    --linear_gradient_light_sec_right: linear-gradient(
+        to right,
+        var(--color_light_sec),
+        var(--color_dark_sec)
+    );
+
+    --linear_gradient_dark_sec_right: linear-gradient(
+        to right,
+        var(--color_dark_sec),
+        var(--color_light_sec)
+    );
+
+    --linear_gradient_light_sec_bottom: linear-gradient(
+        to bottom,
+        var(--color_light_sec),
+        var(--color_dark_sec)
+    );
+
+    --linear_gradient_dark_sec_bottom: linear-gradient(
+        to bottom,
+        var(--color_dark_sec),
+        var(--color_light_sec)
+    );
+
+    --linear_gradient_light_sec_bottom_right: linear-gradient(
+        to bottom right,
+        var(--color_light_sec),
+        var(--color_dark_sec)
+    );
+
+    --linear_gradient_dark_sec_bottom_right: linear-gradient(
+        to bottom right,
+        var(--color_dark_sec),
+        var(--color_light_sec)
+    );
+
+    --linear_gradient_light_sec_bottom_left: linear-gradient(
+        to bottom left,
+        var(--color_light_sec),
+        var(--color_dark_sec)
+    );
+
+    --linear_gradient_dark_sec_bottom_left: linear-gradient(
+        to bottom left,
+        var(--color_dark_sec),
+        var(--color_light_sec)
+    );
+
+    --glassy_blur_1: blur(8px);
+    --glassy_blur_2: blur(16px);
+    --glassy_blur_3: blur(24px);
+}
